@@ -203,7 +203,7 @@ def run():
         st.warning("Tidak dapat mendeteksi tanggal di 'Tiket Dibuat'. Menggunakan default 744 jam (31 hari).")
 
     sla_mapping_hours = {
-        '1 - Critical - 1 - High': 4.0,
+        '1 - Critical - 1 - High': 2.0,
         '1 - Critical - 2 - Medium': 6.0,
         '1 - Critical - 3 - Low': 8.0,
         '2 - High - 1 - High': 6.0,
